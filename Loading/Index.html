@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="Loading.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
+</head>
+<body style="background-color: rgb(150, 50, 50);">
+    <div class="loader">
+       <div class="RabitLoader"></div>
+    </div>
+    
+    <header class="header-fixed">
+
+        <div class="header-limiter">
+    
+            <img style="width: 15%; height: 105px;" src="/Assets/img/Logo.png" alt="">
+    
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" class="selected">Blog</a>
+                <a href="#">Pricing</a>
+                <a href="#">About</a>
+                <a href="#">Faq</a>
+                <a href="#">Contact</a>
+            </nav>
+    
+        </div>
+    
+    </header>
+
+
+    <footer class="site-footer">
+      <div class="container">
+      </div>
+</footer>
+
+
+    <script>
+       const loader = document.querySelector(".loader");
+       window.onload = function(){
+         setTimeout(function(){
+           loader.style.opacity = "0";
+           setTimeout(function(){
+             loader.style.display = "none";
+           }, 500);
+         },1500);
+       }
+    </script>
+ </body>
+
+
+
+
+</html>
