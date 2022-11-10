@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=VT323&display=swap");
+
+body {
+  background-image: url("../Assets/img/Background.png");
+  /*overflow: hidden;*/
+}
+
+.div-general {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.titulo {
+  font-family: "Fredoka One", cursive;
+  font-size: calc(2.7rem + 1.5vw);
+  margin-top: 1rem;
+}
+
+.about-game {
+  margin-bottom: 0;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+}
+
+.div-blanco {
+  border-radius: 15px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.div-imagen {
+  background-image: url("../Assets/img/Logo-general-medium.png");
+  background-position: center center;
+  height: 252px;
+  width: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-boton {
+  padding-top: 200px;
+}
+
+.mb-4-5 {
+  margin-bottom: 2.3rem !important;
+}
+
+.btn-next{
+  color: black;
+  background-color: #fade9d;
+  border-radius: 15px;
+  border: none;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+  height: 35px;
+  width: 90px;
+  padding: 1px 20px 1px 20px;
+  box-shadow: 5px 5px 2px 1px rgb(216,182,103);
+}
+
+.btn-next:hover{
+  background-color:#ead093;
+}
+
+.btn-next:active{
+  background-color:rgb(216,182,103) !important;
+}
+
+/* GAME PLAY */
+.about-gif{
+  background-image: url("../Assets/img/about.gif");
+  background-position: center center;
+  height: 150px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-interact, .btn-interact:disabled{
+  color: black;
+  background-color: #edddb8;
+  border-radius: 15px;
+  border: none;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+  height: 30px;
+  width: 80px;
+  padding: 1px 20px 1px 20px;
+  box-shadow: 5px 5px 2px 1px rgb(148,136,109);
+}
+
+
+@media screen and (max-width: 960px)  {
+  body {
+    overflow: scroll;
+  }
+
+  .about-game {
+    font-size: 16px;
+  }
+
+  .div-imagen {
+    margin-top: 5px;
+    background-image: url("../Assets/img/Logo-general-medium.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110px;
+  }
+
+  .div-boton {
+    margin-top: 15px;
+    padding-top: 0px;
+  }
+
+  .espada{
+    display:none;
+  }
+}
