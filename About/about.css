@@ -2,7 +2,7 @@
 
 body {
   background-image: url("../Assets/img/Background.png");
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .div-general {
