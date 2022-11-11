@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=VT323&display=swap");
 
 body {
   background-color: #c7acd5;
   overflow: hidden;
 }
 .titulo {
-    font-family: "Fredoka One", cursive;
-    font-size: calc(2.7rem + 1.5vw);
-    margin-top: 1rem;
-  }
+  font-family: "Fredoka One", cursive;
+  font-size: calc(2.7rem + 1.5vw);
+  margin-top: 1rem;
+}
 
 .div-general {
   background-color: rgba(255, 255, 255, 0.6);
@@ -16,29 +16,29 @@ body {
   height: 572px;
 }
 
-.div-subject{
-    border-radius: 15px;
-    margin:0px 30px;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: start;
+.div-subject {
+  border-radius: 15px;
+  margin: 0px 30px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: start;
 }
 
-.titulo-subject{
-    font-family: "VT323", monospace;
-    margin: 0;
+.titulo-subject {
+  font-family: "VT323", monospace;
+  margin: 0;
 }
 
-.pregunta{
-    font-family: "VT323", monospace;
-    font-size: 22px;
-    margin: 0;
+.pregunta {
+  font-family: "VT323", monospace;
+  font-size: 22px;
+  margin: 0;
 }
 
-.respuesta{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    font-size: 16px;
+.respuesta {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 16px;
 }
 
 /* SCROLL*/
@@ -62,4 +62,18 @@ body {
   border-top-width: 30px;
   border-top-style: solid;
   border-top-color: #e9deee;
+}
+
+@media screen and (max-width: 960px) {
+  .div-subject {
+    margin: 0px 10px;
+  }
+
+  .pregunta {
+    font-size: 18px;
+  }
+  
+  .respuesta {
+    font-size: 12px;
+  }
 }
