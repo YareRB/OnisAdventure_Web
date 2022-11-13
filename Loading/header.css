@@ -1,129 +1,40 @@
-.header-fixed {
-	background-color:#ffffff;
-	box-shadow:0 1px 1px #ccc;
-	padding: 20px 40px;
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+    height: 925px;
+}
+
+header {
+	background: #ffffff;
+	grid-area: header;
 	height: 125px;
-	color: #ffffff;
-	box-sizing: border-box;
-	top:-100px;
-
-	-webkit-transition:top 0.3s;
-	transition:top 0.3s;
-}
-
-.header-fixed .header-limiter {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-/*	The header placeholder. It is displayed when the header is fixed to the top of the
-	browser window, in order to prevent the content of the page from jumping up. */
-
-.header-fixed-placeholder{
-	height: 80px;
-	display: none;
-}
-
-/* Logo */
-
-.header-fixed .header-limiter h1 {
-	float: left;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	margin: 0;
-}
-
-.header-fixed .header-limiter h1 span {
-	color: #5383d3;
-}
-
-/* The navigation links */
-
-.header-fixed .header-limiter a {
-	color: #000000;
-	text-decoration: none;
-}
-
-.header-fixed .header-limiter nav {
-	font:18px Arial, Helvetica, sans-serif;
-	line-height: 100px;
-	float: right;
-}
-
-.header-fixed .header-limiter nav a{
-	display: inline-block;
-	padding: 0 25px;
-	text-decoration:none;
-	color: #000000;
-	opacity: 0.9;
-    margin-right: 20px;
-}
-
-.header-fixed .header-limiter nav a:hover{
-	opacity: 1;
-}
-
-.header-fixed .header-limiter nav a.selected {
-	color: #d10000;
-	pointer-events: none;
-	opacity: 1;
-}
-
-/* Fixed version of the header */
-
-body.fixed .header-fixed {
-	padding: 10px 40px;
-	height: 50px;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
-
-body.fixed .header-fixed-placeholder {
-	display: block;
-}
-
-body.fixed .header-fixed .header-limiter h1 {
-	font-size: 24px;
-	line-height: 30px;
-}
-
-body.fixed .header-fixed .header-limiter nav {
-	line-height: 28px;
-	font-size: 13px;
 }
 
 
-/* Making the header responsive */
+section {
+	margin-top: 45px;
+	background: #ABABAB;
+	grid-area: section;    
+}
 
-@media all and (max-width: 600px) {
+aside {
+	margin-top: 45px;
+	background: #00ff62;
+	grid-area: aside; 
+}
 
-	.header-fixed {
-		padding: 20px 0;
-		height: 75px;
-	}
+footer {
+	height: 84px;
+	background: #ffffff;
+	grid-area: footer;
+}
 
-	.header-fixed .header-limiter h1 {
-		float: none;
-		margin: -8px 0 10px;
-		text-align: center;
-		font-size: 24px;
-		line-height: 1;
-	}
-
-	.header-fixed .header-limiter nav {
-		line-height: 1;
-		float:none;
-	}
-
-	.header-fixed .header-limiter nav a {
-		font-size: 13px;
-	}
-
-	body.fixed .header-fixed {
-		display: none;
-	}
-
+header, nav, section, aside, footer {
+	padding: 5px;
 }
