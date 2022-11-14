@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=VT323&display=swap");
+
+  body{
+      background-image: url("../Assets/img/Background.png");
+      overflow: hidden;
+  }
+
+  
+  .div-general {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 669px;
+    width: 950px;
+  }
+  
+  .div-video {
+    margin: 0px 100px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: start;
+  }
+
+
+  .div-steam {
+    background-color: rgba(255, 255, 255, 0.0);
+    padding-top: 20px;
+  }
+
+  .logo-steam {
+    height: 70px;
+    width: 70px;
+  }
+
+
+  .available-steam {
+    font-family: "VT323", monospace;
+    font-size: 52px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+  }
+
+ 
+
