@@ -55,6 +55,8 @@ a{
 }
 
 
+
+
 .btn-togo{
 	border-radius: 15px;
 	color: rgb(255, 255, 255);
@@ -67,3 +69,20 @@ a{
 .steam-color{
 	color: purple;
 }
+
+.fcc-btn {
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	font-family: "VT323", monospace;
+	font-size: 26px;
+	padding: 15px 25px;
+	border-color: darkmagenta;
+	text-decoration: none;
+  }
+
+  .fcc-btn:hover {
+	color: darkmagenta;
+	background-color: rgb(255, 255, 255);
+	border-color: darkmagenta;
+  }

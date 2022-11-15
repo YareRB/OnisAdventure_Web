@@ -118,3 +118,7 @@ body {
     display:none;
   }
 }
+
+.icon-footer:hover{
+  color: rgb(196, 30, 30);
+}

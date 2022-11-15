@@ -76,3 +76,7 @@ body {
     background-color: #a4bedb4b;
     display: none;
   }
+
+  .icon-footer:hover{
+    color: #a4bedb;
+  }
