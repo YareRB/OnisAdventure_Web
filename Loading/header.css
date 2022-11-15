@@ -53,3 +53,17 @@ a{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+
+.btn-togo{
+	border-radius: 15px;
+	color: rgb(255, 255, 255);
+	background-color: black;
+	border-color: darkmagenta;
+	font-family: "VT323", monospace;
+	font-size: 26px;
+}
+
+.steam-color{
+	color: purple;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ | Oni's Adventure</title>
+    <title>UPDATES | Oni's Adventure</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel = "icon" href = "../Assets/img/Logo-general-medium.png" type = "image/x-icon">
 
@@ -18,13 +18,13 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-up-right" style="background-color: rgb(255, 255, 255); height: 160px;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/OnisAdventure_Web/home.html">
+      <a class="navbar-brand" href="/OnisAdventure_Web/index.html">
           <img src="/OnisAdventure_Web/Assets/img/Logo.png" width="130px" alt="Oni's Adventure">
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/home.html" style="font-size: 30px; padding-left: 95px;">HOME</a>
+            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/index.html" style="font-size: 30px; padding-left: 95px;">HOME</a>
           </li>
           <li class="nav-item li-header">
             <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/About/about.html" style="font-size: 30px;">ABOUT</a>
@@ -33,7 +33,7 @@
             <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Gallery/gallery.html" style="font-size: 30px;">GALLERY</a>
           </li>
           <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Updates/updates.html" style="color: rgb(196, 30, 30); font-size: 30px;">UPDATES</a>
+            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Updates/updates.html" style="color: #a4bedb; font-size: 30px;">UPDATES</a>
           </li>
           <li class="nav-item li-header">
             <a class="nav-link active" aria-current="page" href="#" style="font-size: 30px;">MERCH</a>
@@ -42,11 +42,11 @@
             <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/FAQ/faq.html" style="font-size: 30px;">FAQ</a>
           </li>
           <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Team/team.html" style="font-size: 30px;">TEAMTEAM</a>
+            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Team/team.html" style="font-size: 30px;">TEAM</a>
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-primary" type="submit">GO TO IT</button>
+          <button class="btn btn-togo" type="submit"><i class="fa-brands fa-steam steam-color"></i> GO GET IT</button>
         </form>
       </div>
     </div>
@@ -66,9 +66,6 @@
                     <div class="col-12 col-lg-9">
                         <p class="update-tittle" id="updateTitle"></label></p>
                         <p class="update-descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.
@@ -113,16 +110,17 @@
             </div>
 
             <div class="col-11 div-subject mb-3">
-                <div class="row"><div class="col-12 col-lg-2">
+              <div class="row">
+                  <div class="col-12 col-lg-2">
                     <img src="../Assets/img/Logo-general-medium.png" width="120" height="120">
+                  </div>
+                    <div class="col-12 col-lg-9">
+                        <p class="update-tittle" id="secondUpdate" onclick="mostrarUpdate(this.id)">Lorem ipsum dolor sit amet</label></p>
+                        <p class="update-descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.</p>
+                    </div>
+                  <div class="col-lg-12 col-12 text-end"> <i class="fecha_upd">01/01/2001</i>
                 </div>
-                <div class="col-12 col-lg-9">
-                    <p class="update-tittle" id="secondUpdate" onclick="mostrarUpdate(this.id)">Lorem ipsum dolor sit amet</label></p>
-                    <p class="update-descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.</p>
-                </div>
-                <div class="col-lg-12 col-12 text-end"> <i class="fecha_upd">01/01/2001</i>
-                </div>
-            </div>
+              </div>
             </div>
 
             <div class="col-11 div-subject mb-3">
