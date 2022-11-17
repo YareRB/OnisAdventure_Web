@@ -1,88 +1,31 @@
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 100px;
-	background-color: aliceblue;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=VT323&display=swap");
 
-a{
-    font-family: "VT323", monospace;
+a {
+  font-family: "VT323", monospace;
 }
 
-.li-header{
-    padding: 50px;
-}
-
-.footer-font{
-	font-family: "VT323", monospace;
-	font-size: 26px;
-}
-
-
-.fa-brands{
-	width: 20px;
-	height: 20px;
-}
-
-.copyright-text{
-	font-family: "VT323", monospace;
-	font-size: 26px;
-	padding-top: 10px;
-}
-
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-
-
-.icon-footer{
-    font-size: 26px;
-	padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-
-
-
-.btn-togo{
-	border-radius: 15px;
-	color: rgb(255, 255, 255);
-	background-color: black;
-	border-color: darkmagenta;
-	font-family: "VT323", monospace;
-	font-size: 26px;
-}
-
-.steam-color{
-	color: purple;
+.btn-togo {
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-color: darkmagenta;
+  font-family: "VT323", monospace;
+  font-size: 26px;
 }
 
 .fcc-btn {
-	border-radius: 15px;
-	background-color: black;
-	color: white;
-	font-family: "VT323", monospace;
-	font-size: 26px;
-	padding: 15px 25px;
-	border-color: darkmagenta;
-	text-decoration: none;
-  }
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 26px;
+  padding: 15px 25px;
+  border-color: darkmagenta;
+  text-decoration: none;
+}
 
-  .fcc-btn:hover {
-	color: darkmagenta;
-	background-color: rgb(255, 255, 255);
-	border-color: darkmagenta;
-  }
+.fcc-btn:hover {
+  color: darkmagenta;
+  background-color: rgb(255, 255, 255);
+  border-color: darkmagenta;
+}

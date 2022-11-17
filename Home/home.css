@@ -1,44 +1,157 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=VT323&display=swap");
 
-  body{
-      background-image: url("../Assets/img/Background.png");
-      overflow: hidden;
-  }
+body {
+  background-image: url("../Assets/img/Background.png");
+  overflow: hidden;
+}
 
-  
-  .div-general {
-    background-color: rgba(255, 255, 255, 0.0);
-    height: 669px;
-    width: 950px;
-  }
-  
-  .div-video {
-    margin: 0px 100px;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: start;
-  }
+.div-video {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
 
+.logo-steam {
+  height: 60px;
+  width: 60px;
+}
 
-  .div-steam {
-    background-color: rgba(255, 255, 255, 0.0);
-    padding-top: 20px;
-  }
+.available-steam {
+  font-family: "VT323", monospace;
+  font-size: 35px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
 
-  .logo-steam {
-    height: 70px;
-    width: 70px;
-  }
+/* NAV BAR */
+.fa-brands {
+  width: 20px;
+  height: 20px;
+}
 
+.nav-item {
+  margin-left: 3rem;
+  font-family: "VT323", monospace;
+  font-size: 28px;
+}
 
+.active {
+  color: #ad4d61 !important;
+}
+
+.botn-go {
+  line-height: 10px;
+  font-size: 22px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-family: "VT323", monospace;
+  padding: 15px 25px;
+  border-color: darkmagenta;
+  text-decoration: none;
+}
+
+.botn-go:hover {
+  color: darkmagenta;
+  background-color: rgb(255, 255, 255);
+  border-color: darkmagenta;
+}
+
+a {
+  color: transparent;
+}
+
+.steam-color {
+  color: purple;
+}
+
+/*VIDEO*/
+.video {
+  border: 1rem solid rgba(255, 255, 255, 0.8);
+}
+
+/*FOOTER*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.icon-footer:hover {
+  color: #ad4d61;
+}
+
+.copyright-text {
+  font-family: "VT323", monospace;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.icon-footer {
+  font-size: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 960px) {
   .available-steam {
     font-family: "VT323", monospace;
-    font-size: 52px;
+    font-size: 40px;
     margin: 0;
     color: rgb(255, 255, 255);
   }
 
-  .icon-footer:hover{
-    color: rgb(196, 30, 30);
+  body {
+    overflow: scroll;
+  }
+  .botn-go {
+    width: 50% !important;
+    padding: 15px 0px 0px 0px;
+  }
+  .nav-item {
+    /* margin-left: 3rem;*/
+    font-family: "VT323", monospace;
+    font-size: 20px;
   }
 
+  .logo-steam {
+    height: 40px;
+    width: 40px;
+  }
+
+  .available-steam {
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+  }
+
+  .copyright-text {
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .icon-footer {
+    font-size: 18px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+  }
+}
