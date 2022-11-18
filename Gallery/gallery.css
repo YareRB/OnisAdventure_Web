@@ -56,19 +56,22 @@ body {
   border-radius: 15px;
 }
 
-.w3-container,
-.w3-panel {
+.modal-dialog {
   margin-top: 80px;
 }
 
-.w3-modal-content {
-  width: 42%;
+.modal-content{
   background-color: #bddfd6;
+  width: 33rem;
 }
 
 .div-blanco {
   border-radius: 15px;
   background-color: #ffffff;
+}
+
+.modal-body{
+  padding: 0;
 }
 
 .btn-next {
@@ -116,8 +119,7 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .w3-container,
-  .w3-panel {
+  .modal-dialog {
     margin-top: 40px;
   }
 
@@ -132,9 +134,9 @@ body {
   .div-subject {
     margin: 0px 15px;
   }
-  .w3-modal-content {
-    width: 35%;
+  .modal-content {
     background-color: #bddfd6;
+    width: 20rem;
   }
 
   .imagen-arte {
@@ -147,9 +149,16 @@ body {
     margin-top: 0px !important;
 
   }
+  .btn-next {
+    margin-right: 15px;
+  }
 }
 
 
 .icon-footer:hover{
   color: #5aaf99;
+}
+
+.active{
+  color: #5aaf99 !important;
 }

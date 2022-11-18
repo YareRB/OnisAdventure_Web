@@ -29,3 +29,115 @@ a {
   background-color: rgb(255, 255, 255);
   border-color: darkmagenta;
 }
+
+/* NAV BAR */
+.fa-brands {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-item {
+  margin-left: 3rem;
+  font-family: "VT323", monospace;
+  font-size: 28px;
+}
+
+.botn-go {
+  line-height: 10px;
+  font-size: 22px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-family: "VT323", monospace;
+  padding: 15px 25px;
+  border-color: darkmagenta;
+  text-decoration: none;
+}
+
+.botn-go:hover {
+  color: darkmagenta;
+  background-color: rgb(255, 255, 255);
+  border-color: darkmagenta;
+}
+
+a {
+  color: transparent;
+}
+
+.steam-color {
+  color: purple;
+}
+
+/*FOOTER*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.icon-footer:hover {
+  color: #ad4d61;
+}
+
+.copyright-text {
+  font-family: "VT323", monospace;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.icon-footer {
+  font-size: 26px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    overflow: scroll !important;
+  }
+
+  .botn-go {
+    width: 50% !important;
+    padding: 15px 0px 0px 0px;
+  }
+
+  .nav-item {
+    font-family: "VT323", monospace;
+    font-size: 20px;
+  }
+
+  .logo-steam {
+    height: 40px;
+    width: 40px;
+  }
+
+  .copyright-text {
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .icon-footer {
+    font-size: 18px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+  }
+}

@@ -10,47 +10,52 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
+    <link rel="stylesheet" href="../Loading/loading.css">
     <link rel="stylesheet" href="../Loading/header.css">
-    <link rel="stylesheet" href="../Loading/footer.css">
     <link rel="stylesheet" href="../FAQ/faq.css">
     
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-up-right" style="background-color: rgb(255, 255, 255); height: 160px;">
+  <nav class="navbar navbar-expand-lg bg-light" id="navHome">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/OnisAdventure_Web/index.html">
-          <img src="/OnisAdventure_Web/Assets/img/Logo.png" width="130px" alt="Oni's Adventure">
+      <a class="navbar-brand ms-4" href="./OnisAdventure_Web/index.html">
+        <img src="../Assets/img/Logo-general-medium.png" width="70" height="70" alt="Oni's Adventure">
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/index.html" style="font-size: 30px; padding-left: 95px;">HOME</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/About/about.html" style="font-size: 30px;">ABOUT</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../About/about.html">About</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Gallery/gallery.html" style="font-size: 30px;">GALLERY</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Gallery/gallery.html">Gallery</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Updates/updates.html" style="font-size: 30px;">UPDATES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Updates/updates.html">Updates</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Merch/merch.html" style="font-size: 30px;">MERCH</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Merch/merch.html">Merch</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/FAQ/faq.html" style="color: #c7acd5; font-size: 30px;">FAQ</a>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">FAQ</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Team/team.html" style="font-size: 30px;">TEAM</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Team/team.html">Team</a>
+          </li>
+          <li class="nav-item ms-5">
+            <button class=" botn-go w-75"><a href="https://store.steampowered.com/"><i
+                  class="fa-brands fa-steam fa-xl steam-color me-3"></i> </a>GO GET IT</button>
           </li>
         </ul>
-        <form class="d-flex">
-          <a class="fcc-btn" href="https://store.steampowered.com/"><i class="fa-brands fa-steam steam-color"></i> GO GET IT</a>  
-        </form>
       </div>
     </div>
-</nav>
+  </nav>
 
     <div class="container text-center">
         <div class="row">
@@ -58,7 +63,7 @@
           </div>
           <div class="col-10 col-lg-8 div-general">
             <h1 class="titulo">FAQ</h1>
-            <div class="row mt-4">
+            <div class="row mt-4 mb-5">
                 <div class="col-11 div-subject mb-3 ">
                     <h2 class="titulo-subject">Subject</h2>
                     <div>
@@ -89,13 +94,12 @@
                         <p class="respuesta">R: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id turpis suscipit arcu sodales tincidunt.</p>
                     </div>
                 </div>
-                <div class="col-11 div-subject mb-3">
+                <div class="col-11 div-subject mb-4">
                     <h2 class="titulo-subject">Subject</h2>
                     <div>
                         <label class="pregunta"> Q: Lorem ipsum dolor sit amet?</label>
                         <p class="respuesta">R: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id turpis suscipit arcu sodales tincidunt. Vivamus viverra, dolor in laoreet tempor, metus nibh finibus metus, quis luctus sapien lectus ut quam.</p>
                     </div>
-                    
                 </div>
             </div>
           </div>
@@ -103,24 +107,32 @@
           </div>
         </div>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <p class="copyright-text">&copy; 2022 - Oni's Adventure Copyright</p>
-          </div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li class="icon-footer"><a class="nav-link active" href="https://www.reddit.com/r/OnisAdventure/"><i class="fa-brands fa-reddit-alien"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.instagram.com/Onis_Adventure_/"><i class="fa-brands fa-instagram"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://twitter.com/OnisAdventure"><i class="fa-brands fa-twitter"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.tiktok.com/@onisadventure"><i class="fa-brands fa-tiktok"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.youtube.com/channel/UCGCM_yMnkx7D4AxYVbdkvtQ"><i class="fa-brands fa-youtube"></i></a></li>   
-            </ul>
-          </div>
+    <footer id="footerHome" class="footer">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <p class=" ms-5 copyright-text">&copy; 2022 - Oni's Adventure Copyright</p>
+        </div>
+  
+        <div class="col-md-6 col-12">
+          <ul class="social-icons text-end">
+            <li class="icon-footer"><a class="nav-link" href="https://www.reddit.com/r/OnisAdventure/"><i
+                  class="fa-brands fa-reddit-alien"></i></a></li>
+            <li class="icon-footer"><a class="nav-link " href="https://www.instagram.com/Onis_Adventure_/"><i
+                  class="fa-brands fa-instagram"></i></a></li>
+            <li class="icon-footer"><a class="nav-link " href="https://twitter.com/OnisAdventure"><i
+                  class="fa-brands fa-twitter"></i></a></li>
+            <li class="icon-footer"><a class="nav-link " href="https://www.tiktok.com/@onisadventure"><i
+                  class="fa-brands fa-tiktok"></i></a></li>
+            <li class="icon-footer"><a class="nav-link "
+                href="https://www.youtube.com/channel/UCGCM_yMnkx7D4AxYVbdkvtQ"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
+  
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  
 </body>
 </html>

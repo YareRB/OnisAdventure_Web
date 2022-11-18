@@ -4,6 +4,7 @@ body {
   background-color: #a4bedb;
   overflow: hidden;
 }
+
 .titulo {
   font-family: "Fredoka One", cursive;
   font-size: calc(2.7rem + 1.5vw);
@@ -48,35 +49,101 @@ body {
   border-top-color: #ffffff99;
 }
 
-
-.fecha_upd{
-    font-family: "VT323", monospace;
-    font-size: 25px;
-    margin: 0;
-    opacity: 0.6;
+.fecha_upd {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  margin: 0;
+  opacity: 0.6;
 }
 
 .update-tittle {
-    font-family: "VT323", monospace;
-    font-size: 25px;
-    margin: 0;
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  margin: 0;
+}
+
+.update-tittle2 {
+  font-family: "VT323", monospace;
+  font-size: 42px;
+  margin-left: 2rem;
+}
+
+.fecha_upd2 {
+  font-family: "VT323", monospace;
+  font-size: 28px;
+  margin: 0;
+  opacity: 0.6;
+}
+
+
+.update-descripcion {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+
+.bg-azul {
+  background-color: rgba(64, 191, 219, 0.151);
+}
+
+.modal-content {
+  width: 50rem;
+}
+
+.modal-dialog {
+  margin-left: 18rem;
+  margin-top: 9rem;
+}
+
+.update-descripcion2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 960px) {
+  .modal-dialog {
+    margin-top: 40px;
+    margin-left: 1rem;
   }
-  
-  
-  .update-descripcion {
+ 
+
+  .nombre-arte {
+    font-size: 20px;
+  }
+
+  .descripcion-arte {
+    font-size: 12px;
+  }
+  .update-descripcion2 {
     font-family: "Open Sans", sans-serif;
-    margin: 0;
-    font-size: 15px;
+    font-size: 14px;
   }
-  
-
-  .w3-modal{
-    height: 1000px;
-    width: 1000px;
-    background-color: #a4bedb4b;
-    display: none;
+.ms-5{
+  margin-left: 1rem!important;
+}
+  .div-subject {
+    margin: 0px 15px;
   }
 
-  .icon-footer:hover{
-    color: #a4bedb;
+  .modal-content {
+    width: 20rem;
   }
+
+  .imagen-arte {
+    width: "150";
+    height: "150";
+  }
+
+  .imagen-modal {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+}
+
+.icon-footer:hover {
+  color: #6f99c4;
+}
+
+.active{
+  color: #6f99c4 !important;
+}

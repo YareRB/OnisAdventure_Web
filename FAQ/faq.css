@@ -80,5 +80,9 @@ body {
 }
 
 .icon-footer:hover{
-  color: #c7acd5;
+  color: #9965b4;
+}
+
+.active{
+  color: #9965b4 !important;
 }

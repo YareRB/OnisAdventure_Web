@@ -43,8 +43,8 @@ body {
 }
 
 /* MODAL */
-a:hover {
-  color: #c46081;
+.color-negro:hover {
+  color: #c46081 !important;
 }
 
 .bg-rosa {
@@ -55,13 +55,18 @@ a:hover {
   border-radius: 15px;
 }
 
-.w3-container,
-.w3-panel {
+.modal-content {
   margin-top: 120px;
+  text-align: center !important;
 }
-
-.w3-modal-content {
+.color-negro {
+  color: black !important;
+}
+.modal-dialog {
   width: 37%;
+}
+.mb-6 {
+  margin-bottom: 3.8rem !important;
 }
 
 /* SCROLL*/
@@ -88,21 +93,27 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
-  .w3-container,
-  .w3-panel {
-    margin-top: 40px;
+  .modal-content {
+    margin-top: 100px;
   }
 
   .alias {
     font-size: 20px;
   }
-  
+
   .team-descripcion {
     font-size: 12px;
   }
+  .modal-dialog {
+    width: 90%;
+    margin-left: 15px;
+  }
 }
 
-
-.icon-footer:hover{
+.icon-footer:hover {
   color: #f2b7cb;
+}
+
+.active {
+  color: #f2b7cb !important;
 }

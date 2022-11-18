@@ -120,5 +120,9 @@ body {
 }
 
 .icon-footer:hover{
-  color: rgb(196, 30, 30);
+  color: #ad4d61;
+}
+
+.active {
+  color: #ad4d61 !important;
 }

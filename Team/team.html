@@ -1,152 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team | Oni's Adventure</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel = "icon" href = "../Assets/img/Logo-general-medium.png" type = "image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team | Oni's Adventure</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="../Assets/img/Logo-general-medium.png" type="image/x-icon">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../Loading/header.css">
-    <link rel="stylesheet" href="../Loading/footer.css">
-    <link rel="stylesheet" href="../Team/team.css">
-    
+  <link rel="stylesheet" href="../Loading/header.css">
+  <link rel="stylesheet" href="../Team/team.css">
+
 </head>
+
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-up-right" style="background-color: rgb(255, 255, 255); height: 160px;">
+  <nav class="navbar navbar-expand-lg bg-light" id="navHome">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/OnisAdventure_Web/index.html">
-          <img src="/OnisAdventure_Web/Assets/img/Logo.png" width="130px" alt="Oni's Adventure">
+      <a class="navbar-brand ms-4" href="./OnisAdventure_Web/index.html">
+        <img src="../Assets/img/Logo-general-medium.png" width="70" height="70" alt="Oni's Adventure">
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/index.html" style="font-size: 30px; padding-left: 95px;">HOME</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/About/about.html" style="font-size: 30px;">ABOUT</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../About/about.html">About</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Gallery/gallery.html" style="font-size: 30px;">GALLERY</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Gallery/gallery.html">Gallery</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Updates/updates.html" style="font-size: 30px;">UPDATES</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Updates/updates.html">Updates</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Merch/merch.html" style="font-size: 30px;">MERCH</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../Merch/merch.html">Merch</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/FAQ/faq.html" style="font-size: 30px;">FAQ</a>
+          <li class="nav-item">
+            <a class="nav-link " href="../FAQ/faq.html">FAQ</a>
           </li>
-          <li class="nav-item li-header">
-            <a class="nav-link active" aria-current="page" href="/OnisAdventure_Web/Team/team.html" style="color: #f2b7cb; font-size: 30px;">TEAM</a>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Team</a>
+          </li>
+          <li class="nav-item ms-5">
+            <button class=" botn-go w-75"><a href="https://store.steampowered.com/"><i
+                  class="fa-brands fa-steam fa-xl steam-color me-3"></i> </a>GO GET IT</button>
           </li>
         </ul>
-        <form class="d-flex">
-          <button class="btn btn-togo" type="submit"><i class="fa-brands fa-steam steam-color"></i> GO GET IT</button>
-        </form>
       </div>
     </div>
-</nav>
-
-
-    <div class="container text-center">
-        <div class="row">
-          <div class="col-1 col-lg-2">
-          </div>
-          <div class="col-10 col-lg-8 div-general">
-            <h1 class="titulo">Team</h1>
-            <div class="row mt-4" id="teams">
-            </div>
-          </div>
-          <div class="col-1 col-lg-2">
-          </div>
-        </div>
-        <div id="id01" class="w3-modal bg-rosa">
-            <div class="w3-modal-content border-r">
-              <div class="w3-container">
-                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright"><label class="alias">X</label></span>
-                <img id="imagen-modal" class="mt-2" src="../Assets/img/Team/paco.jpg" width="150" height="150">
-                <p id="alias-modal" class="alias mt-3"></p>
-                <p class="team-descripcion ms-5 me-5 mb-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.</p>
-                <div class="row mb-4 ms-4">
-                    <div class="col-lg-4"></i></div>
-                    <div class="col-5 col-lg-1 ms-4"><a id="red2-modal" target="_blank" href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a></div>
-                    <div class="col-5 col-lg-1"><a id="red3-modal" target="_blank" href=""><i class="fa-brands fa-github fa-2xl"></i></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>    
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <p class="copyright-text">&copy; 2022 - Oni's Adventure Copyright</p>
-          </div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li class="icon-footer"><a class="nav-link active" href="https://www.reddit.com/r/OnisAdventure/"><i class="fa-brands fa-reddit-alien"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.instagram.com/Onis_Adventure_/"><i class="fa-brands fa-instagram"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://twitter.com/OnisAdventure"><i class="fa-brands fa-twitter"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.tiktok.com/@onisadventure"><i class="fa-brands fa-tiktok"></i></a></li>
-              <li class="icon-footer"><a class="nav-link active" href="https://www.youtube.com/channel/UCGCM_yMnkx7D4AxYVbdkvtQ"><i class="fa-brands fa-youtube"></i></a></li>   
-            </ul>
-          </div>
+  </nav>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-1 col-lg-2">
+      </div>
+      <div class="col-10 col-lg-8 div-general">
+        <h1 class="titulo">Team</h1>
+        <div class="row mt-4 mb-6" id="teams">
         </div>
       </div>
-    </footer>
+      <div class="col-1 col-lg-2">
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="col-lg-12 modal fade bg-rosa" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog border-r">
+      <div class="modal-content text-center">
+        <span data-bs-dismiss="modal" aria-label="Close" onclick="cerrarModal()" class="text-end me-3 mt-2"><label
+            class="nombre-art">X</label></span>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8"> <img id="imagen-modal" class="mt-2" src="../Assets/img/Team/paco.jpg" width="150"
+              height="150">
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <p id="alias-modal" class="alias mt-3"></p>
+        <p class="team-descripcion ms-5 me-5 mb-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.</p>
+        <div class="row mb-4 ms-4 ">
+          <div class="col-lg-4"></i></div>
+          <div class="col-5 col-lg-1"><a id="red2-modal" target="_blank" href=""><i
+                class="fa-brands fa-linkedin fa-2xl color-negro"></i></a></div>
+          <div class="col-5 col-lg-1"><a id="red3-modal" target="_blank" href=""><i
+                class="fa-brands fa-github fa-2xl color-negro"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footerHome" class="footer">
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <p class=" ms-5 copyright-text">&copy; 2022 - Oni's Adventure Copyright</p>
+      </div>
 
-    <script>
-        var team = [["YANET","Game Director","yanet.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["DIANA","Lead Project Assistant","diana.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["MARIROCO","Ilustrator","mariela.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["YARE","Front End Manager","yare.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["PACO","Director Assistant","paco.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["ASTREY","Voice Manager","jorge.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["IVAN","Music Manager","ivan.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["ALAN","Back End Manager","alan.jpg", "https://www.linkedin.com/","https://github.com/"],
-                    ["PONCHO","Game Tester","poncho.jpg", "https://www.linkedin.com/","https://github.com/"], 
-                    ["LEO","Game Tester","leo.jpg", "https://www.linkedin.com/","https://github.com/"]
-                ];
-var numero = 0;
-       team.forEach(integrant => {
-           const integrante = `
+      <div class="col-md-6 col-12">
+        <ul class="social-icons text-end">
+          <li class="icon-footer"><a class="nav-link" href="https://www.reddit.com/r/OnisAdventure/"><i
+                class="fa-brands fa-reddit-alien"></i></a></li>
+          <li class="icon-footer"><a class="nav-link " href="https://www.instagram.com/Onis_Adventure_/"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li class="icon-footer"><a class="nav-link " href="https://twitter.com/OnisAdventure"><i
+                class="fa-brands fa-twitter"></i></a></li>
+          <li class="icon-footer"><a class="nav-link " href="https://www.tiktok.com/@onisadventure"><i
+                class="fa-brands fa-tiktok"></i></a></li>
+          <li class="icon-footer"><a class="nav-link "
+              href="https://www.youtube.com/channel/UCGCM_yMnkx7D4AxYVbdkvtQ"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    var team = [["YANET", "Game Director", "yanet.jpg", "https://mx.linkedin.com/in/paola-yanet-villa-rojo-b064ba204", "https://github.com/RedVille"],
+    ["DIANA", "Lead Project Assistant", "diana.jpg", "https://www.linkedin.com/", "https://github.com/DBS20"],
+    ["MARIROCO", "Ilustrator", "mariela.jpg", "https://www.linkedin.com/in/mariela-rocha-corona-498331205/", "https://github.com/mariroco"],
+    ["YARE", "Front End Manager", "yare.jpg", "https://www.linkedin.com/in/juana-yareli-ram%C3%ADrez-bertadillo-617972234/", "https://github.com/YareRB"],
+    ["PACO", "Director Assistant", "paco.jpg", "https://www.linkedin.com/in/francisco-salazar-8306a8235/", "https://github.com/PacoSalazarR"],
+    ["ASTREY", "Voice Manager", "jorge.jpg", "https://www.linkedin.com/in/jorge-ismael-vera-huerta-91265b231", "https://github.com/Awtry"],
+    ["IVAN", "Music Manager", "ivan.jpg", "https://www.linkedin.com/in/iv%C3%A1n-alejandro-castillo-flores-6020a9232/", "https://github.com/IvanCastillo-F"],
+    ["ALAN", "Back End Manager", "alan.jpg", "https://www.linkedin.com/in/alan-guzm%C3%A1n-a99808205/", "https://github.com/AlanGF7"],
+    ["PONCHO", "Game Tester", "poncho.jpg", "https://www.linkedin.com/in/alfonso-pm/", "https://github.com/Alfonso-PM"],
+    ["LEO", "Game Developer", "leo.jpg", "https://www.linkedin.com/in/leonardo-munoz-775ba1256/", "https://github.com/MLeo100"]
+    ];
+    var numero = 0;
+    team.forEach(integrant => {
+      const integrante = `
                 <div class="col-11 div-subject mb-3"><div class="row"><div class="col-12 col-lg-2">
                 <img src="../Assets/img/Team/`+ integrant[2] + `" width="120" height="120"></div>
-                <div class="col-12 col-lg-9"><p class="alias">` + integrant[0] + `<label class="rol">` +integrant[1] + `</label></p>
+                <div class="col-12 col-lg-9"><p class="alias">` + integrant[0] + `<label class="rol">` + integrant[1] + `</label></p>
                 <p class="team-descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliq.</p>
-                </div><div class="col-lg-1 col-12 text-end" id="`+numero+`" onclick="mostrarModal(this.id)"> <i class="fa-solid fa-exclamation fa-lg"></i></div></div></div>`;
+                </div><div class="col-lg-1 col-12 text-end" id="`+ numero + `" onclick="mostrarModal(this.id)" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fa-solid fa-exclamation fa-lg"></i></div></div></div>`;
 
-            document.getElementById("teams").innerHTML =  document.getElementById("teams").innerHTML + integrante;
-            numero++;
-        });
+      document.getElementById("teams").innerHTML = document.getElementById("teams").innerHTML + integrante;
+      numero++;
+    });
 
-        function mostrarModal(id){
-            //Definir integrante seleccionado
-            const seleccionado = team[id];
-            const alias =`<label id="rol-modal" class="rol">` + seleccionado[1] +`</label>`;
-            
-            //Cambiar informacion del modal
-            document.getElementById("alias-modal").innerText = seleccionado[0];
-            document.getElementById("alias-modal").innerHTML += alias;
-            document.getElementById("imagen-modal").src = "../Assets/img/Team/" + seleccionado[2];
+    function mostrarModal(id) {
+      //Definir integrante seleccionado
+      const seleccionado = team[id];
+      const alias = `<label id="rol-modal" class="rol">` + seleccionado[1] + `</label>`;
 
-            //Cambiar url de las redes sociales
-            document.getElementById("red2-modal").href = seleccionado[4];
-            document.getElementById("red3-modal").href = seleccionado[5];
+      //Cambiar informacion del modal
+      document.getElementById("alias-modal").innerText = seleccionado[0];
+      document.getElementById("alias-modal").innerHTML += alias;
+      document.getElementById("imagen-modal").src = "../Assets/img/Team/" + seleccionado[2];
 
-            //Mostar modal
-            document.getElementById('id01').style.display='block'
-        }
-    </script>
-    <script src="https://kit.fontawesome.com/f80099478c.js" crossorigin="anonymous"></script>
+      //Cambiar url de las redes sociales
+      document.getElementById("red2-modal").href = seleccionado[3];
+      document.getElementById("red3-modal").href = seleccionado[4];
+
+      //Mostar modal
+      //  document.getElementById('id01').style.display='block'
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/f80099478c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
