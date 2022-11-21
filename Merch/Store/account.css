@@ -1,0 +1,252 @@
+#Header{
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.NavbarStyle{
+    background-color: #ffffff;
+}
+
+.NavbarOnis{
+    justify-content: right;
+}
+
+
+#NavbarFontAccount{
+    font-family: "VT323";
+    font-size: 25px;
+
+}
+
+
+/*-------------------*/
+
+
+#Footer{
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+    font-family: "VT323";
+    font-size: 23px;
+}
+
+
+/*--------------------*/
+
+
+#MyBody{
+    background-color: #F2C4A7;
+}
+
+#MyContent{
+    background-color: #f9e8dd;
+    overflow-y: scroll;
+    height: 740px;
+    width: 1200px;
+    
+}
+
+#MyContent::-webkit-scrollbar-track {
+    background-color: #f9e8dd;
+}
+
+#MyContent::-webkit-box-shadow{
+    box-shadow: inset 0 0 0px rgb(242, 183, 203); ;
+
+}
+  
+#MyContent::-webkit-scrollbar {
+    width: 20px;
+    background-color: #f9e8dd
+}
+  
+#MyContent::-webkit-scrollbar-thumb {
+    background-color: #c17313;
+    border-width: 8px;
+    border-right-style: solid;
+    border-right-color: #f9e8dd;
+    border-bottom-style: solid;
+    border-bottom-color: #f9e8dd;
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: #f9e8dd;
+}
+
+/*------------------------------*/
+
+.RowProfileInfo{
+    margin: 3px;
+}
+
+.ColProfileInfo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+#ColImage{
+    text-align: center;
+}
+
+#ColInfo{
+    background-color: #fefefea3;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#ProfileTitle{
+    font-family: 'Fredoka One';
+}
+
+#AvatarUserPhoto{
+    width: 200px;
+    height: 200px;
+
+    border-style: double;
+    border-radius: 3px;
+
+    /*eje x | eje y | blur-radius = opacidad | spread-radius = expander alrededor| color */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.AvatarPhotoChoose{
+    width: 80px;
+    height: 80px;
+
+    border-style: double;
+    border-radius: 3px;
+
+    /*eje x | eje y | blur-radius = opacidad | spread-radius = expander alrededor| color */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#AvatarName{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.Avatar_TitleInfo{
+    font-weight: bold;
+}
+
+.Avatar_Info{
+    font-size: 15;
+}
+
+
+
+#ProfileButtons{
+    text-align: right;
+    
+}
+
+
+#ChangePassword{
+
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    color: #61204c;
+    border:none;
+}
+
+#ChangePassword:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#iconSave{
+    width: 30px;
+    height: 30px;
+}
+
+#Profile-SaveButton{
+    background-color: #9b79ad;
+
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+#Profile-SaveButton:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#iconEdit{
+    width: 30px;
+    height: 30px;
+}
+
+#Profile-EditButton{
+    background-color: #c69cb9;
+
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+#Profile-EditButton:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#LogOut{
+    background-color: #aa1f1f;
+
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+#LogOut:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+#ColLogOut{
+    text-align: right;
+    
+}
+
+
+#Profile-SaveAvatarPhoto{
+    background-color: #9b79ad;
+
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+
+}
+
+#Profile-SaveAvatarPhoto:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}

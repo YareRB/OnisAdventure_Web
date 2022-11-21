@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merch | Oni's Adventure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="account.css">
+
+    <!--FONTS-->
+      <!--Pixels-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+
+      <!--Fredoka One-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka One">
+
+      <!--Open Sans-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <!--End FONTS-->
+
+  </head>
+<body>
+    
+  <!--Header-->
+  <header>
+    <div class="container-fluid" id="Header">
+
+        <nav id="NavbarFontAccount" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="store.html">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse NavbarOnis" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="account.html">Account</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+    </div><br><br>
+  </header>
+  <!--End Header-->
+
+
+
+    <!--Container-->
+    <div class="container-fluid" id="MyBody">
+      <div class="container" id="MyContent"><br>
+
+        <!--Title-->
+          <h1 id="ProfileTitle">Profile</h1>        
+        <!--End Title-->
+
+        <hr>
+
+        <!--Profile-->
+        <div class="row RowProfileInfo">
+
+          <!--Avatar-User-Photo    Checkout_User_Info-->
+          <div id="ColImage" class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ColProfileInfo">
+            <img id="AvatarUserPhoto" alt="User Photo" 
+              src="https://i.pinimg.com/564x/da/4c/b3/da4cb34575e290b2ea3b28be2718240b.jpg">
+            
+            <hr>
+          
+            <table class="table table-borderless">
+
+              <tr>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/564x/da/4c/b3/da4cb34575e290b2ea3b28be2718240b.jpg">
+                </td>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/564x/a4/70/db/a470dbdbe41c32538143ef5f1da573c1.jpg">
+                </td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/564x/c1/a9/dc/c1a9dcb73d26cc2084aaefe836b61b2a.jpg">
+                </td>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/564x/d2/14/1d/d2141d8c030e2671c03c65342a762af4.jpg">
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/564x/9f/94/f7/9f94f7b454025ef0c25c3f4bb9eae598.jpg">
+                </td>
+                <td>
+                  <img class="AvatarPhotoChoose" alt="User Photo" 
+                    src="https://i.pinimg.com/736x/65/ff/08/65ff0812814188b724c2c38b59c795de.jpg">
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">
+                  <button id="Profile-SaveAvatarPhoto" type="button" class="btn" onclick="">
+                    <img id="iconSave" alt="Card" 
+                      src="https://cdn.icon-icons.com/icons2/1946/PNG/512/1904659-arrow-backup-down-download-save-storage-transfer_122509.png"> 
+                    Save
+                  </button>
+                </td>
+              </tr>
+
+            </table>
+
+
+          </div>
+          <!--End   Avatar-User-Photo    Checkout_User_Info-->
+
+          <!--Table-Profile and Buttons Info-->
+          <div id="ColInfo" class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ColProfileInfo">
+
+            <!--Table-->
+            <div class="container" id="Tabla">
+              <table id="ProfileInfoTable" class="table table-borderless">
+
+                <tr>
+                  <th colspan="2"><input type="text" class="form-control Avatar_Info" id="AvatarName" placeholder="Mika Torricelli" disabled></th>
+                </tr>
+  
+                <tr>
+                  <td><label class="Avatar_TitleInfo">Email (hotmail, gmail, outlook...): </label></td>
+                  <td><label class="Avatar_TitleInfo">Phone Number: </label></td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <input type="email" class="form-control Avatar_Info" id="email" placeholder="mitorivell58@gmail.com" disabled>
+                  </td>
+                  <td>
+                    <input type="tel" class="form-control Avatar_Info" id="phone" placeholder="477 789 1215" disabled>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td colspan="2"><label class="Avatar_TitleInfo">Address: </label></td>
+                </tr>
+  
+                <tr>
+                  <td colspan="2">
+                    <textarea class="form-control Avatar_Info" id="address" rows="2" placeholder="Hacienda Velasco, calle Amaranto Rioja #987" disabled></textarea>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td><label class="Avatar_TitleInfo">City, State. Country.: </label></td>
+                  <td><label class="Avatar_TitleInfo">PC: </label></td>
+                </tr>
+  
+                <tr>
+                  <td>
+                    <input type="text" class="form-control Avatar_Info" id="place" placeholder="León, Guanajuato. México." disabled>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control Avatar_Info" id="cp" placeholder="C.P. 37681" disabled>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <br>
+
+            <!--Buttons-->
+            <div id="ProfileButtons" class="container">
+              <div class="row">
+
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <button id="ChangePassword" type="button" class="btn">
+                    <label  for=""><u>Change password</u></label>
+                  </button>
+                </div>
+
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button id="Profile-SaveButton" type="button" class="btn" onclick="save()">
+                    <img id="iconSave" alt="Card" 
+                      src="https://cdn.icon-icons.com/icons2/1946/PNG/512/1904659-arrow-backup-down-download-save-storage-transfer_122509.png"> 
+                    Save
+                  </button>
+                </div>
+
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button id="Profile-EditButton" type="button" class="btn" onclick="editar()">
+                    <img id="iconEdit" alt="Card" 
+                      src="https://cdn.icon-icons.com/icons2/620/PNG/512/pencil-striped-symbol-for-interface-edit-buttons_icon-icons.com_56782.png"> 
+                    Edit
+                  </button>
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+            <br>
+
+          </div>
+          <!--End Table-Profile and Buttons Info-->
+        </div>
+
+        <!--LogOut-->
+        <div id="LogOutProfile" class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div id="ColLogOut" class="container">
+              <button id="LogOut" type="button" class="btn">
+                Log Out
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--End Profile-->
+
+        <br>
+      </div>
+    </div>
+    <!--End Container-->
+   
+
+
+    <!--Footer-->
+    <footer id="Footer">
+      <label for="">© 2022 - Oni's Adventure Copyright</label>
+    </footer>
+    <!--End Footer-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="account.js"></script>
+
+</body>
+</html>
