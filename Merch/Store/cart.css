@@ -1,0 +1,581 @@
+#Header{
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.NavbarStyle{
+    background-color: #ffffff;
+}
+
+.NavbarOnis{
+    justify-content: right;
+}
+
+#NavbarFontCart{
+    font-family: "VT323";
+    font-size: 25px;
+
+}
+
+/*-------------------*/
+
+
+#Footer{
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+    font-family: "VT323";
+    font-size: 23px;
+}
+
+/*--------------------*/
+
+
+#MyBody{
+    background-color: #F2C4A7;
+}
+
+#MyContent{
+    background-color: #f9e8dd;
+    overflow-y: scroll;
+    height: 740px;
+    width: 1200px;
+    
+}
+
+#MyContent::-webkit-scrollbar-track {
+    background-color: #f9e8dd;
+}
+
+#MyContent::-webkit-box-shadow{
+    box-shadow: inset 0 0 0px rgb(242, 183, 203); ;
+
+}
+  
+#MyContent::-webkit-scrollbar {
+    width: 20px;
+    background-color: #f9e8dd
+}
+  
+#MyContent::-webkit-scrollbar-thumb {
+    background-color: #c17313;
+    border-width: 8px;
+    border-right-style: solid;
+    border-right-color: #f9e8dd;
+    border-bottom-style: solid;
+    border-bottom-color: #f9e8dd;
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: #f9e8dd;
+}
+
+
+#iconCartTitle{
+    width: 100px;
+    height: 100px;
+}
+
+.ColCartTitleIcon{
+    
+    text-align: right;
+    
+}
+
+#CartTitle{
+   
+    margin-top:5px;
+    margin-bottom: 5px;
+
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Fredoka One';
+
+}
+
+/*-----------------------------------------*/
+
+#MyBagFont{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#HeadTableMyProducts{
+    font-family: "VT323";
+    font-size: 22px;
+}
+
+#BodyTableMyProducts{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.RowMyBag{
+    
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.ColMyBag{
+    height: 50px;
+}
+
+#ColMyBagSeparation{
+    width: 90px;
+}
+
+#ColMyBagCShopping{
+    background-color: #CBC7B7;
+    padding: 0px;
+}
+
+#iconBag{
+    width: 30px;
+    height: 30px;
+}
+
+#iconBagButton{
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#iconBagButton:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/*-----------------------------------------*/
+
+#RowMyProducts{
+    background-color: #fefefe5b;
+    text-align: center;
+    
+}
+
+
+#ColMyProducts{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#ColMyProducts::-webkit-scrollbar-track {
+    background-color: #f9e8dd;
+}
+
+#ColMyProducts::-webkit-box-shadow{
+    box-shadow: inset 0 0 0px rgb(242, 183, 203); ;
+
+}
+  
+#ColMyProducts::-webkit-scrollbar {
+    width: 20px;
+    background-color: #f9e8dd
+}
+  
+#ColMyProducts::-webkit-scrollbar-thumb {
+    background-color: #c17313;
+    border-width: 8px;
+    border-right-style: solid;
+    border-right-color: #f9e8dd;
+    border-bottom-style: solid;
+    border-bottom-color: #f9e8dd;
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: #f9e8dd;
+}
+
+
+#imageMyProducts{
+    margin: 5px;
+    width: 240px;
+    border-radius: 3px;
+
+}
+
+/*-----------------------------------------*/
+
+
+#ContainerCheckout{
+    background-color: #efdecf7b;
+}
+
+
+#ChekoutTitle{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+
+    text-align: center;
+    font-family: 'Fredoka One';    
+    font-size: 70px;
+
+
+}
+
+
+#iconCheckoutTitle{
+    width: 100px;
+    height: 100px;
+}
+
+.RowCheckoutUserInfo{
+    background-color: #fefefea3;
+    margin: 3px;
+}
+
+#ShippingGuatanteeTitle{
+    font-family: "VT323";
+    font-size: 40px;
+}
+
+#ShippingGuatanteeSubTitle{
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+
+.ColCheckoutUserInfo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+#ColImage{
+    text-align: center;
+}
+
+
+.ShippingPaymentTitle{
+    font-family: "VT323";
+    font-size: 40px;
+}
+
+.ShippingPaymentText{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#colCheckoutinfoShippingGuarateen{
+    width: 320px;
+    padding: 0px;
+}
+
+
+#AvatarUserPhoto{
+    width: 200px;
+    height: 200px;
+
+    border-style: double;
+    border-radius: 3px;
+
+    /*eje x | eje y | blur-radius = opacidad | spread-radius = expander alrededor| color */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+#AvatarName{
+    font-size: 20px;
+}
+
+.Avatar_Info{
+    font-size: 15;
+}
+
+
+
+#ColShippingGuarateeCheckout{
+    text-align: center;
+    background-color:#b1643e77 ;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+:root {
+    --activado: #a85a00;
+    --desactivado: #62504d;
+    --color-button: #fdffff;
+    --sombra: #000;
+}
+
+.ShippingGuarantee-switch-button {
+    display: inline-block;
+}
+.ShippingGuarantee-switch-button .ShippingGuarantee-switch-button__checkbox {
+
+    /*inhabilita la opción de visualizar y ver el cuadro marcado/desmarcado del checkbox*/
+    display: none;
+}
+.ShippingGuarantee-switch-button .ShippingGuarantee-switch-button__label {
+    /*Propiedades del Label/Fondo de inicio del checkbox switch antes de activarlo*/
+
+    background-color: var(--desactivado);
+    width: 4rem;
+    height: 2rem;
+    border-radius: 3rem;
+
+    
+    display: inline-block; 
+    position: relative;
+}
+.ShippingGuarantee-switch-button .ShippingGuarantee-switch-button__label:before {
+    /*Propiedades del botón  de activación o apagado*/
+
+    transition: .2s;/*tiempo de transición del cambio a activado o desactivado*/
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--sombra);
+
+    display: block;/*mantiene en posición al botón de activación o apagado para que no se salga del label al ejecutar su función*/
+    position: absolute;
+}
+
+.ShippingGuarantee-switch-button .ShippingGuarantee-switch-button__checkbox:checked + .ShippingGuarantee-switch-button__label {
+    /*Propiedades cuando el checkbox switch sea activado*/
+    background-color: var(--activado);
+}
+.ShippingGuarantee-switch-button .ShippingGuarantee-switch-button__checkbox:checked + .ShippingGuarantee-switch-button__label:before {
+    /*Ajusta el largo del desplazamiento del boton cuando este ejecute su función*/
+    transform: translateX(2rem);
+}
+
+
+/*-----------------------------------------*/
+
+.RowCheckoutUserShippingPayment_Method{
+    background-color: #fefefea3;
+    margin: 3px;
+
+    /*
+    border-color: #000;
+    border-style: solid;*/
+
+}
+
+.ColCheckoutUserShippingPayment_Method{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*
+    border-color: red;
+    border-style: solid;*/
+
+}
+
+
+
+/*-----------------------------------------*/
+
+.RowItemsCheckout{
+    background-color: #fefefea3;
+    margin: 3px;
+}
+
+.ColItemsCheckoutTitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-family: "VT323";
+    font-size: 40px;
+
+    /*
+    border-color: red;
+    border-style: solid;*/
+
+}
+
+.ColItemsCheckout{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*
+    border-color: red;
+    border-style: solid;*/
+
+}
+
+#Item1{
+    width: 150px;
+    height: 190px;
+
+    background-color: hsla(344, 53%, 92%, 0.507);
+}
+
+#Item2{
+    width: 150px;
+    height: 190px;
+
+    background-color: hsla(9, 70%, 87%, 0.508);
+}
+
+
+#Item3{
+    width: 150px;
+    height: 190px;
+
+    background-color: hsla(265, 29%, 85%, 0.486);
+}
+
+#Item4{
+    width: 150px;
+    height: 190px;
+
+    background-color: hsla(344, 53%, 92%, 0.508);
+}
+
+#Item5{
+    width: 150px;
+    height: 190px;
+
+    background-color: hsla(9, 70%, 87%, 0.509);
+}
+
+
+#iconItemMore{
+    width: 60px;
+    height: 60px;
+}
+
+/*-----------------------------------------*/
+
+.RowPurchaseCheckout{
+    background-color: #fefefea3;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+}
+
+.RowPurchaseSecondCheckout{
+    background-color: #fefefea3;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+
+    text-align: center;
+
+}
+.RowPurchaseTableCheckout{
+    background-color: #fefefea3;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.ColPurchaseCheckoutTitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+    /*
+    border-color: red;
+    border-style: solid;*/
+
+}
+
+.ColPurchaseSecondCheckout{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ColPurchaseTableCheckout{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#PurchaseTitle{
+    font-family: "VT323";
+    font-size: 40px;
+}
+
+#OnisReceiptTitle{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#lineOnisReceiptTitle{
+    border-width: 2px;
+    border-style: dotted;
+}
+
+#OnisReceiptSub-Title{
+
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.OnisReceipText{
+
+    font-size: 15px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.OnisPurchaseTableReceipText{
+    font-size: 22px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.OnisPurchaseTableReceipTextRigth{
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#OnisPurchaseTableReceipTOTAL{
+    background-color: #F5DEE4;
+}
+
+#OnisPurchase-ButtonPAY-ReceipTOTAL{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+#iconPay{
+    width: 30px;
+    height: 30px;
+}
+
+#OnisPurchase-ButtonPay{
+    background-color: #C6C09C;
+
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+#OnisPurchase-ButtonPay:hover{
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/

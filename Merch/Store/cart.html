@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merch | Oni's Adventure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="cart.css">
+
+    <!--FONTS-->
+      <!--Pixels-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+
+      <!--Fredoka One-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka One">
+
+      <!--Open Sans-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <!--End FONTS--> 
+
+  </head>
+<body>
+    
+  <!--Header-->
+  <header>
+    <div class="container-fluid" id="Header">
+
+      <nav id="NavbarFontCart" class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="store.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse NavbarOnis" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="account.html">Account</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+    </div><br><br>
+  </header>
+  <!--End Header-->
+
+
+
+    <!--Container-->
+    <div class="container-fluid" id="MyBody">
+      <div class="container" id="MyContent"><br>
+
+        <!--Title-->
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ColCartTitleIcon">
+              <img id="iconCartTitle" src="https://cdn.icon-icons.com/icons2/742/PNG/512/shopping-cart-3_icon-icons.com_63429.png" alt="icon Cart" >
+            </div>
+  
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+              <label id="CartTitle">YOUR ONI'S CART</label>
+            </div>
+          </div>
+        </div><br>
+        <!--End Title-->
+
+        <hr>
+
+        <!--MyBag-->
+        <div id="MyBagFont" class="container">
+          <div class="row RowMyBag">
+
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ColMyBag">
+              <h2>Subtotal: </h2>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ColMyBag">
+              <h2> $ 1000.00 </h2>
+            </div>
+
+            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ColMyBag" id="ColMyBagSeparation">
+              <h2>|</h2>
+            </div>
+
+            <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 ColMyBag" id="ColMyBagCShopping">
+              <a id="iconBagButton" href="shop.html" class="btn" role="button">
+                <img id="iconBag" src="https://cdn.icon-icons.com/icons2/1993/PNG/512/bag_buy_cart_market_shop_shopping_tote_icon_123191.png" alt="icon Bag" >
+                <label>Continue Shopping</label>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--End MyBag-->
+
+        <hr>
+
+        <!--MyProducts-->
+        <div class="container">
+          <div class="row" id="RowMyProducts">
+            
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9" id="ColMyProducts">
+              <br>
+              <table class="table">
+
+                <thead id="HeadTableMyProducts">
+
+                  <th scope="col">#</th>
+                  <th>Oni's Products</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+
+                </thead>
+
+                <tbody id="BodyTableMyProducts">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Hoodies</td>
+                    <td>2</td>
+                    <td>450</td>
+                  </tr>
+                </tbody>
+
+              </table>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+              <img id="imageMyProducts" 
+                src="https://i.pinimg.com/564x/42/06/d0/4206d0cf74166d8b7032a63f8ff7fed1.jpg" alt="icon Cart" >
+            </div>
+
+          </div>
+        </div>
+        <!--End MyProducts-->
+
+        <hr>
+
+        <!--Checkout-->
+        <div class="container"  id="ContainerCheckout">
+
+          <!--Checkout Title-->
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ColCartTitleIcon">
+              <img id="iconCheckoutTitle" alt="icon Checkout" 
+                src="https://cdn.icon-icons.com/icons2/2076/PNG/512/atm_card_credit_card_icon_127178.png">
+            </div>
+
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+              <label id="ChekoutTitle">ONI'S CHECK OUT</label>
+            </div>
+            
+          </div>
+          <!--End Checkout Title-->
+          
+          <br>
+
+          <!--Checkout User-->
+          <div class="row RowCheckoutUserInfo" id="">
+
+            <!--Avatar-User-Photo    Checkout_User_Info-->
+            <div id="ColImage" class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ColCheckoutUserInfo">
+              <img id="AvatarUserPhoto" alt="User Photo" 
+                src="https://i.pinimg.com/564x/da/4c/b3/da4cb34575e290b2ea3b28be2718240b.jpg">
+            </div>
+            <!--End   Avatar-User-Photo    Checkout_User_Info-->
+
+            <!--Table-Address Checkout_User_Info-->
+            <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 ColCheckoutUserInfo">
+              <table class="table table-borderless">
+
+                <tr>
+                  <th colspan="2"><label id="AvatarName">Mika Torricelli</label></th>
+                </tr>
+                
+                <tr>
+                  <td><label class="Avatar_Info">mitorivell58@gmail.com</label></td>
+                  <td><label class="Avatar_Info">477 789 1215</label></td>
+                </tr>
+
+                <tr>
+                  <td colspan="2"><label class="Avatar_Info">Hacienda Velasco, calle Amaranto Rioja #987.</label></td>
+                </tr>
+
+                <tr>
+                  <td><label class="Avatar_Info">León, Guanajuato. México.  </label></td>
+                  <td><label class="Avatar_Info">C.P. 37681</label></td>
+                </tr>
+
+              </table>
+            </div>
+            <!--End   Table-Address Checkout_User_Info-->
+
+            <!--Shipping-Guarantee Checkout_User_Info-->
+            <div id="colCheckoutinfoShippingGuarateen" 
+              class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ColCheckoutUserInfo">
+              <div id="ColShippingGuarateeCheckout" class="container">
+                  <table class="table">
+
+                    <tr>
+                      <th colspan="2"><h2 id="ShippingGuatanteeTitle">Shipping Guarantee</h2></th>
+                    </tr>
+
+                    <tr>
+                      <td><h3 id="ShippingGuatanteeSubTitle">$18.50</h3></td>
+                      <td>
+                        <div class="ShippingGuarantee-switch-button">
+                          <!-- Checkbox -->
+                          <input type="checkbox" name="ShippingGuarantee-switch-button" id="ShippingGuarantee-switch-label" class="ShippingGuarantee-switch-button__checkbox">
+                          <!-- Botón -->
+                          <label for="ShippingGuarantee-switch-label" class="ShippingGuarantee-switch-button__label"></label>
+                      </div>
+                      </td>
+                    </tr>
+
+                  </table>
+              </div>
+            </div>
+            <!--End   Shipping-Guarantee Checkout_User_Info-->
+
+          </div>
+          <!--End Checkout User-->
+
+
+          <!--Checkout Shipping-Payment Method-->
+          <div class="row RowCheckoutUserShippingPayment_Method">
+
+            <!--Shipping Method-->
+            <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 ColCheckoutUserShippingPayment_Method">
+              <form action="">
+                <table class="table table-borderless">
+                  <tr>
+                    <th><h4 class="ShippingPaymentTitle">Shipping Method</h4></th>
+                  </tr>
+  
+                  <tr>
+                    <td>
+  
+                      <div class="form-check ShippingPaymentText">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Standard shipping
+                        </label>
+                      </div>
+  
+                    </td>
+                  </tr>
+  
+                  <tr>
+                    <td>
+  
+                      <div class="form-check ShippingPaymentText">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Express shipping
+                        </label>
+                      </div>
+  
+                    </td>
+                  </tr>
+
+                  <tr><td><label for=""></label></td></tr>
+  
+                </table>
+              </form>
+            </div>
+            <!--End   Shipping Method-->
+
+
+            <!--Payment Method-->
+            <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 ColCheckoutUserShippingPayment_Method">
+              <form action="">
+                <table class="table table-borderless">
+                  <tr>
+                    <th><h4 class="ShippingPaymentTitle">Payment Method</4></th>
+                  </tr>
+  
+                  <tr>
+                    <td>
+  
+                      <div class="form-check ShippingPaymentText">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Credit/Debit Card
+                        </label>
+                      </div>
+  
+                    </td>
+                  </tr>
+  
+                  <tr>
+                    <td>
+  
+                      <div class="form-check ShippingPaymentText">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Paypal
+                        </label>
+                      </div>
+  
+                    </td>
+                  </tr>
+  
+                  <tr>
+                    <td>
+  
+                      <div class="form-check ShippingPaymentText">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Shop pay
+                        </label>
+                      </div>
+  
+                    </td>
+                  </tr>
+  
+                </table>
+              </form>
+            </div>
+            <!--End   Payment Method-->
+
+          </div>
+          <!--End Checkout Shipping-Payment Method-->
+
+
+
+          <!--Items-->
+          <div class="row RowItemsCheckout">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ColItemsCheckoutTitle">
+
+              <label>Items</label>
+
+            </div>
+
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <div id="Item1" class="container"></div>
+            </div>
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <div id="Item2" class="container"></div>
+            </div>
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <div id="Item3" class="container"></div>
+            </div>
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <div id="Item4" class="container"></div>
+            </div>
+
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <div id="Item5" class="container"></div>
+            </div>
+
+            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColItemsCheckout">
+              <img id="iconItemMore" src="https://cdn.icon-icons.com/icons2/916/PNG/512/Plus_icon-icons.com_71848.png" alt="más">
+            </div>
+            
+
+          </div>
+          <!--End Items-->
+
+          <br>
+
+          <!--Purchase receipt -->
+          <!--Purchase Title-->
+          <div class="row RowPurchaseCheckout">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ColPurchaseCheckoutTitle">
+
+              <label id="PurchaseTitle">Purchase receipt</label>
+
+            </div>
+          </div>
+          <!--End Purchase Title-->
+
+          <!--Purchase Subtitle-->
+          <div class="row RowPurchaseCheckout">
+            <div id="OnisReceiptTitle" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ColPurchaseCheckoutTitle">
+              <h3>Oni's Receipt</h3>
+              <hr id="lineOnisReceiptTitle">
+              <label id="OnisReceiptSub-Title" for="">Oni's corporation</label>
+            </div>
+
+          </div>
+          <!--End Purchase Subtitle-->
+
+          <!--Purchase Sub-Title-Text-->
+          <div class="row RowPurchaseSecondCheckout">
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 ColPurchaseSecondCheckout">
+              <label class="OnisReceipText" for="">Date: 14/05/22</label>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 ColPurchaseSecondCheckout">
+              <label class="OnisReceipText" for="">Purchase Online</label>
+            </div>
+
+          </div>
+          <!--End Purchase Sub-Title-Text-->
+
+
+          <!--Purchase Table-->
+          <div class="row RowPurchaseTableCheckout">
+            <!--Table Purchase Receipt Info-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ColPurchaseTableCheckout">
+              
+              <table class="table table-borderless">
+
+                <tr>
+                  <td class="OnisPurchaseTableReceipText"><label for="">Subtotal: </label></td>
+                  <td class="OnisPurchaseTableReceipTextRigth"><label for="">$ 1,879.00</label></td>
+                </tr>
+
+                <tr>
+                  <td class="OnisPurchaseTableReceipText"><label for="">Shipping fee: </label></td>
+                  <td class="OnisPurchaseTableReceipTextRigth"><label for="">$0.00</label></td>
+                </tr>
+
+                <tr>
+                  <td class="OnisPurchaseTableReceipText"><label for="">Shipping Guarantee: </label></td>
+                  <td class="OnisPurchaseTableReceipTextRigth"><label for="">$18.50</label></td>
+                </tr>
+
+                <tr id="OnisPurchaseTableReceipTOTAL">
+                  <td  class="OnisPurchaseTableReceipText"><label for=""><b>Total: </b> </label></td>
+                  <td  class="OnisPurchaseTableReceipTextRigth"><label for=""><b>$1,897.50</b></label></td>
+                </tr>
+
+              </table>
+
+            </div>
+
+            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10"></div>
+
+            <!--Button Pay-->
+            <div id="OnisPurchase-ButtonPAY-ReceipTOTAL" 
+              class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ColPurchaseTableCheckout">
+              <button id="OnisPurchase-ButtonPay" type="button" class="btn">
+                <img id="iconPay" alt="Card" 
+                  src="https://cdn.icon-icons.com/icons2/1919/PNG/512/creditcardwithlines_121985.png"> 
+                Pay
+              </button>
+            </div>
+          </div>
+          <!--Purchase Table-->
+          <!--End Purchase receipt-->
+          
+
+        </div>
+        <!--End Checkout-->
+
+        <br>
+
+      </div>
+    </div>
+    <!--End Container-->
+   
+
+
+    <!--Footer-->
+    <footer id="Footer">
+      <label for="">© 2022 - Oni's Adventure Copyright</label>
+    </footer>
+    <!--End Footer-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</body>
+</html>
