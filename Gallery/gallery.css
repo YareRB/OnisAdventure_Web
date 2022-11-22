@@ -7,7 +7,7 @@ body {
 
 .titulo {
   font-family: "Fredoka One", cursive;
-  font-size: calc(2.7rem + 1.5vw);
+  font-size: calc(1.7rem + 1.5vw);
   margin-top: 1rem;
 }
 
@@ -38,13 +38,13 @@ body {
 
 .imagen-arte {
   border-radius: 10px;
-  border: 4px solid #898989;
+  background-color: rgb(248, 242, 222);
+  border: 4px solid rgb(90, 175, 153);
 }
 
 .imagen-modal {
   border-radius: 10px;
-  margin-top: 1.5rem !important;
-
+  margin-top: 1rem !important;
 }
 
 /* MODAL */

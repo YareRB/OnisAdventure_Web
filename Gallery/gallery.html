@@ -64,7 +64,7 @@
           </div>
           <div class="col-10 col-lg-8 div-general">
             <h1 class="titulo">Art</h1>
-            <div class="row mt-4" id="gallery">    
+            <div style="padding-bottom: 120px;" class="row mt-4" id="gallery">    
             </div>
           </div>
           <div class="col-1 col-lg-2">
@@ -80,12 +80,12 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-lg-5 col-12" >
-              <img id="imagen-modal" class="ms-5 mt-2 imagen-modal" src="" width="180" height="180">
+              <img id="imagen-modal" class="ms-5 mt-2 imagen-modal" src="" width="210" height="210">
           </div>
           <div class="col-1"></div>
           <div class="col-lg-5 col-10 div-blanco mt-2">
               <p class="nombre-arte mt-3">Description:</p>
-              <p class="descripcion-arte ms-2 me-2 mb-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet ultrices felis, vitae mattis urna aliquam volutpat. </p>
+              <p class="descripcion-arte ms-2 me-2 mb-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, vitae mattis urna aliquam volutpat. </p>
               <p class="nombre-arte mt-2 mb-3">Autor: <label class="descripcion-arte">Lorem ipsum</label>   </p>
           </div>
       </div>
@@ -129,29 +129,25 @@
       document.getElementById("boton-back").innerText = "<Previous";
       //Elementos para galleria
       var galleria = [
-          ["Logo-general-medium.png","Arte 1"],
-          ["panecito.gif","Arte 2"],
-          ["espada.png","Arte 3"],
-          ["about.gif","Arte 4"],
-          ["Logo-general-medium.png","Arte 5"],
-          ["espada.png","Arte 6"],
-          ["panecito.gif","Arte 7"],
-          ["about.gif","Arte 8"],
-          ["Logo-general-medium.png","Arte 9"],
-          ["panecito.gif","Arte 10"],
-          ["espada.png","Arte 11"],
-          ["about.gif","Arte 12"],
-          ["Logo-general-medium.png","Arte 13"],
-          ["espada.png","Arte 14"],
-          ["panecito.gif","Arte 15"],
-          ["about.gif","Arte 16"]
+          ["OniHalloween.png","Happy Halloween!"],
+          ["OniSecta.png","Oni's Cult"],
+          ["P3.png","Meet Oni"],
+          ["P4.png","Beyonf the forest"],
+          ["P5.png","The curiosity killed the rabbit"],
+          ["P6.png","Falling into a new adventure"],
+          ["player1.png","Sprites PT1"],
+          ["player2.png","Sprites PT2"],
+          ["OniConcept.png","Concept Art - Oni"],
+          ["ElliotConcept.png","Concept Art - Elliot"],
+          ["OliConcept.png","Concept Art - Oliver"],
+          ["Oni1stLogo.png","Oni's 1st Logo"]
       ];
 
       //Agregar elementos
       var numeroArte = 0;
       galleria.forEach(arte => {
           const elemento = `<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="col-12 col-lg-3 div-subject text-center" id="`+numeroArte+`"onclick="mostrarModal(this.id)">
-                      <img class="imagen-arte" src="../Assets/img/`+arte[0]+`" width="180" height="180">
+                      <img class="imagen-arte" src="../Assets/img/Gallery/`+arte[0]+`" width="200" height="200">
                       <p class="nombre-arte mt-3">`+arte[1]+`</p></div>`;
 
           document.getElementById("gallery").innerHTML += elemento;
@@ -169,7 +165,7 @@
 
           //Cambiar informacion del modal
           document.getElementById("nombre-arte-modal").innerText = seleccionado[1];
-          document.getElementById("imagen-modal").src = "../Assets/img/" + seleccionado[0];
+          document.getElementById("imagen-modal").src = "../Assets/img/Gallery/" + seleccionado[0];
 
           //Mostrar modelo
           document.getElementById('id01').style.display='block';

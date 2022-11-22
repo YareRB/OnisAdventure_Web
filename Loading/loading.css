@@ -7,18 +7,18 @@
 }
 .loader{
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
+  background: #FAFAFA;
   transition: all 0.5s;
 }
 .loader .RabitLoader{
   height: 360px;
   width: 360px;
-  background-image: url("../Assets/img/LoadingImage.png");
+  background-image: url("../Assets/img/LoadingImage.gif");
   position: relative;
   display: flex;
   align-items: center;
